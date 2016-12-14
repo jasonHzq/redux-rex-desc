@@ -67,7 +67,7 @@ function reducer(state) {
   };
 }
 
-export default run({
+const Counter = run({
   view: Counter,
   namespace: 'root/Counter',
   initialState: { count: -1 },
@@ -81,4 +81,6 @@ export default run({
       yield put(actions.setCount(response));
     }
   },
-})
+});
+
+export default Counter;

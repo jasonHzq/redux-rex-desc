@@ -49,8 +49,9 @@ view -> reducer
 
 有些人用一个 prefix 去拼凑 action type，然后抛出 reducer，有些人干脆放弃 global store。
 
-`redux-rex` 在 Component 复用上的要求是，用起来要和 Smart Component 一样，不需要关心 reducer，而实际上又会默默地自动地 combineReducer 到相应的位置。
+实际上，`redux-rex` 能够做到 Component 即插即用，不需要去额外配置 reducer，不需要配置 saga。这些已经在技术上做了调研，可以实现。
 
+也就是说，`redux-rex` 用起来要和 Smart Component 一样，不需要关心 reducer，而实际上又会默默地自动地 combineReducer 到相应的位置。
 
 2）组合 `reducer`
 

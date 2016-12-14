@@ -77,7 +77,7 @@ function tasks(actions) {
   };
 }
 
-export default run({
+const List = run({
   view: List,
   namespace: 'root/List',
   initialState: {
@@ -95,4 +95,6 @@ export default run({
 
     yield tasks.loadData;
   },
-})
+});
+
+export default List;
