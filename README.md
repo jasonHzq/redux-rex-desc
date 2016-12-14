@@ -106,7 +106,7 @@ componnetDidMount() {
 view -> action -> saga
 ```
 
-`redux-rex` 已经会把 `action` 和谐掉了，因此新的方式是：
+`redux-rex` 已经把 `action` 和谐掉了，因此新的方式是：
 
 ```
 view -> saga
