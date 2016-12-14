@@ -1,0 +1,12 @@
+{
+  "name": "rex-desc",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+  },
+  "devDependencies": {
+  },
+  "author": "zongquan.hzq",
+  "license": "MIT"
+}
